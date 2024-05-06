@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(154, 154, 154);
+    margin: 0;
+    display: grid;
+}
+
+
+header{
+    background-color: rgb(188, 188, 188);
+    height: 100px;
+}
+
+header>h1{
+    text-align: center;
+}
+
+main{
+    background-color: rgb(225, 191, 191);
+    display: grid;
+}
+
+main>table{
+    font-size: large;
+}
+/* main tfoot{
+    text-align: center;
+}
+ */
+#especial{
+    text-align: center;
+
+}
+
+footer{
+    background-color: rgb(134, 134, 134);
+    position: fixed;
+    bottom: 0;
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid rgba(0, 0, 0, 0.235);
+}
+
+footer>p{
+    text-align: center;
+    width: 50vw;
+}
+
+footer ul{
+    margin-right: 15px;
+}
